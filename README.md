@@ -80,7 +80,7 @@ for the traditional Bootstrap version to avoid code conflicts.
 </div>
 ```
 
-<li>We always try to avoid using unnecessary <div> tags. When we have only one [row], we try not to use it at all.</li>
+<li>We always try to avoid using unnecessary ```<div>``` tags. When we have only one [row], we try not to use it at all.</li>
 
 ```diff
 - Instead of this
