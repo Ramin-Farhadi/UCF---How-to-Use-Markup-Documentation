@@ -18,6 +18,7 @@ classes or Bootstrap classes. For example:
 ```diff
 - Instead of this
 <div style=”margin-top:30px”> </div>
+
 + We use the built-in classes
 <div style=”mt-3”> </div>
 ```
@@ -37,6 +38,7 @@ for the traditional Bootstrap version to avoid code conflicts.
         <div class=”col-6”></div>
     </div>
 </div>
+
 + We use the built-in classes
 [container]
     [row class=”mt-5”]
