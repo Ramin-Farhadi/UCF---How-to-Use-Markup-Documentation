@@ -39,7 +39,7 @@ for the traditional Bootstrap version to avoid code conflicts.
     </div>
 </div>
 
-+ We use the built-in classes
++ We prefer to use short code version:
 [container]
     [row class=”mt-5”]
         [col xs=”6”][/col]
