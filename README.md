@@ -17,10 +17,10 @@ classes or Bootstrap classes. For example:
 
 ```diff
 - Instead of this
-<s>`<div style=”margin-top:30px”> </div>`</s> <br>
+<s><div style=”margin-top:30px”> </div></s> <br>
 ```
 
 ```diff
 + We use the built-in classes
-`<div style=”mt-3”> </div>`
+<div style=”mt-3”> </div>
 ```
