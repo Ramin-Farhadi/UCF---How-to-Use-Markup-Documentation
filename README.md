@@ -18,9 +18,30 @@ classes or Bootstrap classes. For example:
 ```diff
 - Instead of this
 <div style=”margin-top:30px”> </div>
-```
-
-```diff
 + We use the built-in classes
 <div style=”mt-3”> </div>
+```
+
+<li>
+When writing HTML code, we prefer to use the grid system, which works exactly like
+Bootstrap. The diTerence is that we prefer to use it in a shortcode style. However, the
+traditional Bootstrap method also works well, and for nested elements, we may opt
+for the traditional Bootstrap version to avoid code conflicts.
+</li>
+
+```diff
+- Instead of this
+<div class=”container”>
+    <div class=”row mt-5”>
+        <div class=”col-6”></div>
+        <div class=”col-6”></div>
+    </div>
+</div>
++ We use the built-in classes
+[container]
+    [row class=”mt-5”]
+        [col xs=”6”][/col]
+        [col xs=”6”][/col]
+    [/row]
+[/container]
 ```
