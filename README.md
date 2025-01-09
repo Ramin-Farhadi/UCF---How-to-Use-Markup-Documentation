@@ -15,5 +15,5 @@ discuss in the following bullet points.
 classes or Bootstrap classes. For example:
 </li>
 
-<span style="color:red"> Instead of this </span> <s>`<div style=”margin-top:30px”> </div>`</s>
-<span style="color:green"> We use the built-in classes </span> `<div style=”mt-3”> </div>`
+<code style="color:red"> Instead of this </code> <s>`<div style=”margin-top:30px”> </div>`</s>
+<code style="color:green"> We use the built-in classes </code> `<div style=”mt-3”> </div>`
