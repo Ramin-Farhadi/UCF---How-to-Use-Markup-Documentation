@@ -17,7 +17,7 @@ classes or Bootstrap classes. For example:
 
 ```diff
 - Instead of this
-<s><div style=”margin-top:30px”> </div></s> <br>
+<div style=”margin-top:30px”> </div>
 ```
 
 ```diff
