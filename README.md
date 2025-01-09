@@ -25,7 +25,7 @@ classes or Bootstrap classes. For example:
 
 <li>
 When writing HTML code, we prefer to use the grid system, which works exactly like
-Bootstrap. The diTerence is that we prefer to use it in a shortcode style. However, the
+Bootstrap. The diference is that we prefer to use it in a shortcode style. However, the
 traditional Bootstrap method also works well, and for nested elements, we may opt
 for the traditional Bootstrap version to avoid code conflicts.
 </li>
@@ -46,4 +46,37 @@ for the traditional Bootstrap version to avoid code conflicts.
         [col xs=”6”][/col]
     [/row]
 [/container]
+```
+
+```diff
+- Nested blocks won't be rendered correctly so Instead of this
+[container]
+    [row class=”mt-5”]
+        [col xs=”6”]
+            [container]
+                [row]
+                    [col][/col]
+                    [col][/col]
+                [/row]
+            [/container]
+        [/col]
+        [col xs=”6”][/col]
+    [/row]
+[/container]
+
++ In this case we prefer to use the old school bootstrap methed.
+
+<div class="container">
+    <div class="row">
+        <div class="col-6">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12"></div>
+                    <div class="col-12"></div>
+                </div>
+            </div>
+        </div>
+        <div class="col-6"></div>
+    </div>
+</div>
 ```
