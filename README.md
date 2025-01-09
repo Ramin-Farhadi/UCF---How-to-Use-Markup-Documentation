@@ -95,3 +95,16 @@ for the traditional Bootstrap version to avoid code conflicts.
     "This is my content"
 [/container]
 ```
+
+<li>We never use nested sections in UCF</li>
+
+```diff
+- Instead of this
+<section id="section-1">
+    <section id="section-2"></section>
+</section>
+
++ Use this
+<section id="section-1"></section>
+<section id="section-2"></section>
+```
