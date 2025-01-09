@@ -20,7 +20,7 @@ classes or Bootstrap classes. For example:
 <div style=”margin-top:30px”> </div>
 
 + We use the built-in classes
-<div style=”mt-3”> </div>
+<div class=”mt-3”> </div>
 ```
 
 <li>
@@ -125,7 +125,7 @@ Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots 
 
 </p>
 
-- Separate it into three paragraphs
++ Separate it into three paragraphs
 
 <p>
 What is Lorem Ipsum?
