@@ -15,5 +15,14 @@ discuss in the following bullet points.
 classes or Bootstrap classes. For example:
 </li>
 
-<code style="color : Red"> Instead of this </code> <s>`<div style=”margin-top:30px”> </div>`</s> <br>
-<code style="color : Green"> We use the built-in classes </code> `<div style=”mt-3”> </div>`
+```diff
+- Instead of this
+```
+
+<s>`<div style=”margin-top:30px”> </div>`</s> <br>
+
+```diff
++ We use the built-in classes
+```
+
+`<div style=”mt-3”> </div>`
