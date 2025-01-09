@@ -65,7 +65,6 @@ for the traditional Bootstrap version to avoid code conflicts.
 [/container]
 
 + In this case we prefer to use the old school bootstrap methed.
-
 <div class="container">
     <div class="row">
         <div class="col-6">
@@ -79,4 +78,20 @@ for the traditional Bootstrap version to avoid code conflicts.
         <div class="col-6"></div>
     </div>
 </div>
+```
+
+<li>We always try to avoid using unnecessary `<div>` tags. When we have only one [row], we try not to use it at all.</li>
+
+```diff
+- Instead of this
+[container]
+    [row]
+        "This is my content"
+    [/row]
+[/container]
+
++ Use this
+[container]
+    "This is my content"
+[/container]
 ```
