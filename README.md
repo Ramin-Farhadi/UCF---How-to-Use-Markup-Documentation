@@ -141,7 +141,7 @@ Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots 
 </p>
 ```
 
-<li>When we upload a new image, `<img>` we must sure to update the wp-imge-**** class. This class is related to lazy loading to page. </li>
+<li>When we upload a new image, (img tag) we must sure to update the wp-imge-**** class. This class is related to lazy loading to page. </li>
 
 ```diff
 
