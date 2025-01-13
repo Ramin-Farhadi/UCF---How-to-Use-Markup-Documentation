@@ -141,4 +141,11 @@ Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots 
 </p>
 ```
 
-<li></li>
+<li>When we upload a new image, `<img>` we must sure to update the wp-imge-**** class. This class is related to lazy loading to page. </li>
+
+```diff
+
++ Add the class
+<img src="https://www.ucf.edu/wp-content/blogs.dir/16/files/2022/03/Yan_Cropped_v1.png" alt="Yan Solihin - UCF Professor and Director of Cyber Security and Privacy Cluster" class="size-full wp-image-76477 img-fluid" />
+
+```
