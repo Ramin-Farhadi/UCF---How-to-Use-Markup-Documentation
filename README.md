@@ -96,7 +96,7 @@ for the traditional Bootstrap version to avoid code conflicts.
 [/container]
 ```
 
-<li>We never use nested sections in UCF</li>
+<li>While we are allowed to use nested sections in general, because of the structure and architecture of markup, we never use nested sections in UCF</li>
 
 ```diff
 - Instead of this
@@ -140,3 +140,5 @@ Where does it come from?
 Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
 </p>
 ```
+
+<li></li>
