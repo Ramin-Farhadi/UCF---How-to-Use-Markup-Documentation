@@ -149,3 +149,12 @@ Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots 
 <img src="https://..." alt="Privacy Cluster" class="size-full wp-image-76477 img-fluid" />
 
 ```
+
+<li>For better accessiblity, we should always try to add type when we use button tag.</li>
+
+```diff
+
++ Add the class
+<button type="button" class="btn btn-primary mt-3" onclick="iconSelector(event)" data-bs-toggle="modal" data-bs-target="#iconModal">Cick to Select</button>
+
+```
