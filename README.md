@@ -184,3 +184,19 @@ Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots 
 </div>
 
 ```
+
+<li> Make sure to re-upload images when migrating the code from the test environment to production.</li>
+
+<p> When migrating content from the test environment to production, ensure that all links and images are updated. In the test environment, links start with `wwwtest`, whereas in production, they start with `www`.</p>
+
+```diff
+- Do not use `wwwtest` links in production.
+<img src="wwwtest.my-image.jpg" />
+or
+<a href="wwwtest.ucf.edu/destination" > My link </a>
+
++ Instead, use the correct production links. Note: Images must be re-uploaded in production.
+<img src="www.my-image.jpg" />
+or
+<a href="www.ucf.edu/destination" > My link </a>
+```
