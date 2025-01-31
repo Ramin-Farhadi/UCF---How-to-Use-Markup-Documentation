@@ -169,3 +169,17 @@ Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots 
 <div class="col pb-3">
 
 ```
+
+```diff
+
+- Using an image in an <h*> tags (h1, h2, h3 ... ) is generally discouraged for SEO due to its potential drawbacks.
+
+<h1><img src="test.jpg" alt="something" /></h1>
+
++ It can be used like
+
+<div>
+<h1>Here is my title</h1>
+<img src="test.jpg" alt="something"/>
+</div>
+```
