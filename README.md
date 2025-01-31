@@ -159,27 +159,28 @@ Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots 
 
 ```
 
+<li>When we want to add space between two elements in HTML, we prefer using margin instead of padding. This ensures that spacing is applied externally, maintaining the correct box model structure.</li>
+
 ```diff
-
-+ When we want to add space between two elements in HTML, we prefer using margin instead of padding. This ensures that spacing is applied externally, maintaining the correct box model structure.
-
-<div class="col mb-3">
-
 - Instead of this
 <div class="col pb-3">
 
++ We use this
+<div class="col mb-3">
+
 ```
 
-```diff
+<li > Using an image in an <h*> tags (h1, h2, h3 ... ) is generally discouraged for SEO due to its potential drawbacks. </li>
 
-- Using an image in an <h*> tags (h1, h2, h3 ... ) is generally discouraged for SEO due to its potential drawbacks.
+```diff
+- Instead of using img tags inside the h1
 
 <h1><img src="test.jpg" alt="something" /></h1>
 
 + It can be used like
-
 <div>
 <h1>Here is my title</h1>
 <img src="test.jpg" alt="something"/>
 </div>
+
 ```
