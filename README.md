@@ -154,7 +154,18 @@ Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots 
 
 ```diff
 
-+ Add the class
++ Always add type to buttons if don't, it will act like a submit button by default.
 <button type="button" class="btn btn-primary mt-3" onclick="iconSelector(event)" data-bs-toggle="modal" data-bs-target="#iconModal">Cick to Select</button>
+
+```
+
+```diff
+
++ When we want to add space between two elements in HTML, we prefer using margin instead of padding. This ensures that spacing is applied externally, maintaining the correct box model structure.
+
+<div class="col mb-3">
+
+- Instead of this
+<div class="col pb-3">
 
 ```
